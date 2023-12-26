@@ -11,10 +11,10 @@ export default function Navigation() {
                     <a href="#about">About</a>
                 </li>
                 <li className="competences">
-                    <a href="#competences">Compétences</a>
+                    <a href="#skills">Compétences</a>
                 </li>
                 <li className="projets">
-                    <a href="#projets">Projets</a>
+                    <a href="#projects">Projets</a>
                 </li>
                 <li className="cv">
                     <a href="#cv">CV</a>

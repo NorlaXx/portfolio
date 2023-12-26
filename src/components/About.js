@@ -4,7 +4,7 @@ import presentation from "../assets/images/presentation.jpg";
 
 export default function About() {
     return (
-        <div className="portfolio-about">
+        <div className="portfolio-about" id="about">
             <div className="profile-picture">
                 <img src={presentation} alt="profile" />
             </div>
