@@ -1,6 +1,6 @@
 import "../assets/styles/about.scss";
 
-import presentation from "../assets/images/presentation.jpg";
+import presentation from "../assets/images/about/presentation.jpg";
 
 export default function About() {
     return (

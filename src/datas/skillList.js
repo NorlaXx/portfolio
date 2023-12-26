@@ -1,17 +1,17 @@
-import bootstrap from "../assets/images/bootstrap.svg";
-import css from "../assets/images/css3.svg";
-import git from "../assets/images/git.svg";
-import bash from "../assets/images/gnubash.svg";
-import html from "../assets/images/html5.svg";
-import javascript from "../assets/images/javascript.svg";
-import laravel from "../assets/images/laravel.svg";
-import php from "../assets/images/php.svg";
-import react from "../assets/images/react.svg";
-import symfony from "../assets/images/symfony.svg";
-import uml from "../assets/images/uml.svg";
-import front from "../assets/images/front-end.svg";
-import back from "../assets/images/back-end.svg";
-import devOps from "../assets/images/dev-ops.svg";
+import bootstrap from "../assets/images/skills/bootstrap.svg";
+import css from "../assets/images/skills/css3.svg";
+import git from "../assets/images/skills/git.svg";
+import bash from "../assets/images/skills/gnubash.svg";
+import html from "../assets/images/skills/html5.svg";
+import javascript from "../assets/images/skills/javascript.svg";
+import laravel from "../assets/images/skills/laravel.svg";
+import php from "../assets/images/skills/php.svg";
+import react from "../assets/images/skills/react.svg";
+import symfony from "../assets/images/skills/symfony.svg";
+import uml from "../assets/images/skills/uml.svg";
+import front from "../assets/images/skills/front-end.svg";
+import back from "../assets/images/skills/back-end.svg";
+import devOps from "../assets/images/skills/dev-ops.svg";
 
 export const skillList = [
     {

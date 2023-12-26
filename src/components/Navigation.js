@@ -1,7 +1,7 @@
 import "../assets/styles/navigation.scss";
-import logo_github from "../assets/images/github.svg";
-import logo_linkedin from "../assets/images/linkedin.svg";
-import logo_instagram from "../assets/images/instagram.svg";
+import logo_github from "../assets/images/navBar/github.svg";
+import logo_linkedin from "../assets/images/navBar/linkedin.svg";
+import logo_instagram from "../assets/images/navBar/instagram.svg";
 
 export default function Navigation() {
     return (
