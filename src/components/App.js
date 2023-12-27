@@ -3,6 +3,7 @@ import "../assets/styles/app.scss";
 import Navigation from "./Navigation";
 import About from "./About";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 export default function App() {
     return (
@@ -13,6 +14,7 @@ export default function App() {
             <main className="App-main">
                 <About />
                 <Skills />
+                <Projects />
             </main>
         </div>
     );

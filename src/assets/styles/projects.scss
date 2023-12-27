@@ -1,0 +1,42 @@
+.portfolio-projects {
+    height: 100vh;
+    background: #2c3e50;
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 2rem;
+        margin: 0;
+        padding: 50px 0;
+    }
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 50px;
+        .project {
+            width: 350px;
+            height: 380px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10px;
+            background: #1b2836;
+            margin: 20px;
+            .project-head {
+                width: 310px;
+                height: 30%;
+                border-radius: 10px;
+                background: #2c3e50;
+                margin: 25px 0;
+            }
+            .project-body {
+                width: 310px;
+                height: 100%;
+                background: #2c3e50;
+                border-radius: 10px;
+                margin-bottom: 26px;
+            }
+        }
+    }
+}
