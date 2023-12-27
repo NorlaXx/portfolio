@@ -16,11 +16,12 @@ export default function About() {
                     ans
                     <br />
                     Je suis actuellement en formation à l'
-                    <span className="school">ENI </span>
-                    afin de passer le titre CDA (Concepteur Développeur
-                    d'Application).
+                    <span className="school">ENI</span> afin de passer le titre
+                    CDA (Concepteur Développeur d'Application).
                     <br />
-                    En alternance chez <span className="company">Blue2i </span>
+                    En alternance chez <span className="company">
+                        Blue2i
+                    </span>{" "}
                     en tant que développeur web. <br />
                 </p>
                 <div className="cv">
