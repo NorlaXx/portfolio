@@ -27,6 +27,10 @@ export const skillList = [
                 image: css,
             },
             {
+                name: "Bootstrap",
+                image: bootstrap,
+            },
+            {
                 name: "Javascript",
                 image: javascript,
             },
@@ -34,16 +38,16 @@ export const skillList = [
                 name: "React",
                 image: react,
             },
-            {
-                name: "Bootstrap",
-                image: bootstrap,
-            },
         ],
     },
     {
         category: "backEnd",
         image: back,
         skills: [
+            {
+                name: "Uml",
+                image: uml,
+            },
             {
                 name: "Php",
                 image: php,
@@ -56,10 +60,6 @@ export const skillList = [
                 name: "Laravel",
                 image: laravel,
             },
-            {
-                name: "Uml",
-                image: uml,
-            },
         ],
     },
     {
@@ -67,12 +67,12 @@ export const skillList = [
         image: devOps,
         skills: [
             {
-                name: "Git",
-                image: git,
-            },
-            {
                 name: "Bash",
                 image: bash,
+            },
+            {
+                name: "Git",
+                image: git,
             },
         ],
     },

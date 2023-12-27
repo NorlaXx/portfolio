@@ -5,6 +5,7 @@ import { skillList } from "../datas/skillList";
 export default function Skills() {
     return (
         <div className="portfolio-skills" id="skills">
+            <h1>Compétences</h1>
             <div className="skills">
                 {skillList.map((category, index) => (
                     <div className={category.category}>

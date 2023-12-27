@@ -1,6 +1,7 @@
 import "../assets/styles/about.scss";
 
 import presentation from "../assets/images/about/presentation.jpg";
+import cv from "../assets/images/about/cv.pdf";
 
 export default function About() {
     return (
@@ -10,25 +11,23 @@ export default function About() {
             </div>
             <div className="profile-presentation">
                 <p>
-                    <span className="first">
-                        hello, <br />
-                        Je m'apelle <span className="name">Alexis</span> et j'ai
-                        20 ans
-                    </span>{" "}
+                    hello, <br />
+                    Je m'apelle <span className="name">Alexis</span> et j'ai 20
+                    ans
                     <br />
-                    <span className="second">
-                        Je suis actuellement en formation à l'
-                        <span className="school">ENI </span>
-                        afin de passer le titre CDA (Concepteur Développeur
-                        d'Application).
-                    </span>{" "}
+                    Je suis actuellement en formation à l'
+                    <span className="school">ENI </span>
+                    afin de passer le titre CDA (Concepteur Développeur
+                    d'Application).
                     <br />
-                    <span className="third">
-                        En alternance chez{" "}
-                        <span className="company">Blue2i </span>
-                        en tant que développeur web. <br />
-                    </span>
+                    En alternance chez <span className="company">Blue2i </span>
+                    en tant que développeur web. <br />
                 </p>
+                <div className="cv">
+                    <a href={cv} rel="noreferrer" target="_blank">
+                        Télécharger mon CV
+                    </a>
+                </div>
             </div>
         </div>
     );

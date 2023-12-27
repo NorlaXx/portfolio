@@ -16,9 +16,6 @@ export default function Navigation() {
                 <li className="projets">
                     <a href="#projects">Projets</a>
                 </li>
-                <li className="cv">
-                    <a href="#cv">CV</a>
-                </li>
             </ul>
             <ul className="nav-item nav-contact">
                 <li>
