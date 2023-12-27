@@ -2,4 +2,9 @@
     .App-main {
         padding-left: 175px;
     }
+    .App-footer {
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
 }
