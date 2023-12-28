@@ -13,6 +13,10 @@ $desktop: 1200px;
 
 //---- Les styles globaux
 
+//-- Le body
+*:root {
+    scroll-behavior: smooth;
+}
 //-- Les titres de la page
 h1 {
     display: flex;
