@@ -1,4 +1,4 @@
-$background-color_1: #1f2233;
+@import "./globals.scss";
 
 .portfolio-navigation {
     display: flex;
@@ -36,21 +36,6 @@ $background-color_1: #1f2233;
 
             &:nth-last-child(1) {
                 margin-bottom: 0;
-            }
-
-            a {
-                display: block;
-                padding: 10px;
-                border-radius: 10px;
-                transition: color 0.3s ease, box-shadow 0.3s ease,
-                    padding 0.3s ease;
-
-                &:hover,
-                &:focus,
-                &:active {
-                    color: #677bc4;
-                    box-shadow: 0px 0px 10px 0px #677bc4;
-                }
             }
         }
     }

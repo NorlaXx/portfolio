@@ -1,0 +1,63 @@
+//---- les variables
+
+//-- Les couleurs
+$primary-color: #fb5958;
+$secondary-color: #677bc4;
+$background-color_1: #1f2233;
+$background-color_2: #23283c;
+
+//-- Les tailles d'écrans
+$mobile: 768px;
+$tablet: 1024px;
+$desktop: 1200px;
+
+//---- Les styles globaux
+
+//-- Les titres de la page
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 50px;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 45px;
+        width: 70px;
+        height: 1px;
+        background: $primary-color;
+        margin: 0 auto;
+    }
+}
+
+//-- Les liens sans bordures
+.withoutBorder {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    transition: color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
+    &:hover,
+    &:focus,
+    &:active {
+        color: $secondary-color;
+        box-shadow: 0px 0px 10px 0px $secondary-color;
+    }
+}
+
+//-- Les liens avec bordures
+.withBorder {
+    padding: 10px;
+    font-weight: bold;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+    &:hover {
+        color: $secondary-color;
+        border: 1px solid $secondary-color;
+        box-shadow: 0px 0px 10px 0px $secondary-color;
+    }
+}

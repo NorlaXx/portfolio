@@ -1,24 +1,8 @@
+@import "./globals.scss";
+
 .portfolio-projects {
     height: 100vh;
-    background: #23283c;
-    h1 {
-        display: flex;
-        justify-content: center;
-        color: white;
-        font-size: 2rem;
-        margin: 0;
-        padding-bottom: 50px;
-        position: relative;
-        &:after {
-            content: "";
-            position: absolute;
-            bottom: 45px;
-            width: 70px;
-            height: 1px;
-            background: #fb5958;
-            margin: 0 auto;
-        }
-    }
+    background: $background-color_2;
     .projects {
         display: flex;
         flex-wrap: wrap;
@@ -29,7 +13,7 @@
             flex-direction: column; /* Modification */
             align-items: center;
             border-radius: 10px;
-            border: 1px solid #fb5958;
+            border: 1px solid $primary-color;
             margin: 20px;
             padding: 10px 30px;
             width: auto; /* Modification */
@@ -72,17 +56,6 @@
                     display: block;
                     width: 100px;
                     margin: 0 auto;
-                    padding: 10px;
-                    color: #fb5958;
-                    font-weight: bold;
-                    text-decoration: none;
-                    border-radius: 10px;
-                    border: 1px solid #fb5958;
-                    &:hover {
-                        color: #677bc4;
-                        border: 1px solid #677bc4;
-                        box-shadow: 0px 0px 10px 0px #677bc4;
-                    }
                 }
             }
         }

@@ -1,9 +1,11 @@
+@import "./globals.scss";
+
 .portfolio-about {
     height: 100vh;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    background: #23283c;
+    background: $background-color_2;
     .profile-picture {
         width: 50%;
         display: flex;
@@ -28,30 +30,17 @@
             font-size: 1.3rem;
             line-height: 1.5;
             color: white;
-            border-left: 1px solid #fb5958;
+            border-left: 1px solid $primary-color;
             .name,
             .school,
             .company {
-                color: #fb5958;
+                color: $primary-color;
                 font-weight: bold;
-                border-bottom: 1px solid #fb5958;
+                border-bottom: 1px solid $primary-color;
             }
         }
         .cv {
             margin-top: 20px;
-            a {
-                padding: 10px;
-                color: #fb5958;
-                font-weight: bold;
-                text-decoration: none;
-                border-radius: 10px;
-                border: 1px solid #fb5958;
-                &:hover {
-                    color: #677bc4;
-                    border: 1px solid #677bc4;
-                    box-shadow: 0px 0px 10px 0px #677bc4;
-                }
-            }
         }
     }
 }

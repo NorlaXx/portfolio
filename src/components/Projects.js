@@ -27,6 +27,7 @@ export default function Projects() {
                                     href={project.link}
                                     rel="noreferrer"
                                     target="_blank"
+                                    className="withBorder"
                                 >
                                     Voir le projet
                                 </a>

@@ -8,13 +8,19 @@ export default function Navigation() {
         <nav className="portfolio-navigation">
             <ul className="nav-item nav-liens">
                 <li className="about">
-                    <a href="#about">About</a>
+                    <a href="#about" className="withoutBorder">
+                        About
+                    </a>
                 </li>
                 <li className="competences">
-                    <a href="#skills">Compétences</a>
+                    <a href="#skills" className="withoutBorder">
+                        Compétences
+                    </a>
                 </li>
                 <li className="projets">
-                    <a href="#projects">Projets</a>
+                    <a href="#projects" className="withoutBorder">
+                        Projets
+                    </a>
                 </li>
             </ul>
             <ul className="nav-item nav-contact">

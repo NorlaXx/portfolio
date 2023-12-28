@@ -1,23 +1,10 @@
+@import "./globals.scss";
+
 .portfolio-skills {
     height: 100vh;
-    background: #23283c;
-    h1 {
-        display: flex;
-        justify-content: center;
-        color: white;
-        font-size: 2rem;
-        margin: 0;
-        padding-bottom: 50px;
-        position: relative;
-        &:after {
-            content: "";
-            position: absolute;
-            bottom: 45px;
-            width: 140px;
-            height: 1px;
-            background: #fb5958;
-            margin: 0 auto;
-        }
+    background: $background-color_2;
+    h1:after {
+        width: 140px;
     }
     .skills {
         width: 100%;

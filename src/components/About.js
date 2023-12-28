@@ -25,7 +25,12 @@ export default function About() {
                     en tant que développeur web. <br />
                 </p>
                 <div className="cv">
-                    <a href={cv} rel="noreferrer" target="_blank">
+                    <a
+                        href={cv}
+                        rel="noreferrer"
+                        target="_blank"
+                        className="withBorder"
+                    >
                         Télécharger mon CV
                     </a>
                 </div>
