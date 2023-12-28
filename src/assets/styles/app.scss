@@ -3,6 +3,9 @@
 .App {
     .App-main {
         padding-left: 175px;
+        @media (max-width: globals.$mobile) {
+            padding-left: 0;
+        }
     }
     .App-footer {
         width: 100%;
