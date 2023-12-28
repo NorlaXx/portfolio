@@ -49,6 +49,7 @@ h1 {
 
 //-- Les liens avec bordures
 .withBorder {
+    display: block;
     padding: 10px;
     font-weight: bold;
     color: $primary-color;
