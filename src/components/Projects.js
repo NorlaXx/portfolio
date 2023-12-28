@@ -35,13 +35,6 @@ export default function Projects() {
                         </div>
                     );
                 })}
-                {/* <div className="project">
-                    <div className="project-head">
-                        <img src={logo} alt="logo portfolio"></img>
-                        <h3>Portfolio</h3>
-                    </div>
-                    <div className="project-body"></div>
-                </div> */}
             </div>
         </div>
     );
