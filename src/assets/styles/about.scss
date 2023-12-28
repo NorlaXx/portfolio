@@ -63,4 +63,7 @@
             margin-top: 20px;
         }
     }
+    @media (max-width: $tablet) {
+        height: auto;
+    }
 }

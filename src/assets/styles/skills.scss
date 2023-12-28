@@ -1,7 +1,7 @@
 @import "./globals.scss";
 
 .portfolio-skills {
-    height: 100vh;
+    height: auto;
     background: $background-color_2;
     h1:after {
         width: 140px;
@@ -46,6 +46,7 @@
                 }
                 @media (max-width: $tablet) {
                     width: 100%;
+                    justify-content: center;
                 }
             }
             .frontEnd-presentation,
@@ -85,5 +86,8 @@
             height: 100%;
             justify-content: start;
         }
+    }
+    @media (max-width: $mobile) {
+        padding-top: 50px;
     }
 }
