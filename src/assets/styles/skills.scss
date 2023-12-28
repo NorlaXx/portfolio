@@ -43,9 +43,6 @@
                         font-weight: bold;
                         margin: auto;
                     }
-                    @media (max-width: $tablet) {
-                        height: 110px;
-                    }
                 }
                 @media (max-width: $tablet) {
                     width: 100%;
@@ -85,8 +82,8 @@
             }
         }
         @media (max-width: $tablet) {
-            flex-direction: row;
             height: 100%;
+            justify-content: start;
         }
     }
 }
