@@ -10,7 +10,6 @@ Bienvenue sur mon portfolio personnel développé avec ReactJS. Ce portfolio vis
 
 - ReactJS
 - HTML5, CSS3
-- [Autres technologies]
 
 ## Contact
 
