@@ -1,4 +1,4 @@
-import logoPortfolio from "../assets/images/projects/logo192.png";
+import logoPortfolio from "../assets/images/projects/logo-portfolio.svg";
 import imagePortfolio from "../assets/images/projects/portfolio.png";
 
 export const projectList = [
