@@ -12,6 +12,11 @@ export default function Navigation() {
                         About
                     </a>
                 </li>
+                <li className="parcours">
+                    <a href="#career" className="withoutBorder">
+                        Parcours
+                    </a>
+                </li>
                 <li className="competences">
                     <a href="#skills" className="withoutBorder">
                         Compétences

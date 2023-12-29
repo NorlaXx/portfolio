@@ -6,6 +6,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Footer from "./Footer";
+import Career from "./Career";
 
 export default function App() {
     return (
@@ -16,6 +17,7 @@ export default function App() {
             </header>
             <main className="App-main">
                 <About />
+                <Career />
                 <Skills />
                 <Projects />
             </main>
