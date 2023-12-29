@@ -1,0 +1,43 @@
+@import "./globals.scss";
+
+.nav-item {
+    display: flex;
+    width: 175px;
+    height: auto;
+    padding: 0;
+    li {
+        list-style-type: none;
+        a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+        }
+    }
+}
+
+.nav-liens {
+    flex-direction: column;
+    li {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        &:nth-last-child(1) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.nav-contact {
+    justify-content: center;
+    margin-top: 55px;
+    li {
+        margin-right: 20px;
+        &:nth-last-child(1) {
+            margin-right: 0px;
+        }
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
