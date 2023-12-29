@@ -11,7 +11,7 @@ export default function About() {
             </div>
             <div className="profile-presentation">
                 <p>
-                    hello, <br />
+                    Hello, <br />
                     Je m'appelle <span className="name">Alexis</span> et j'ai 20
                     ans
                     <br />
