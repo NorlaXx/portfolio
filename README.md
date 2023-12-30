@@ -9,7 +9,7 @@ Bienvenue sur mon portfolio personnel développé avec ReactJS. Ce portfolio vis
 ## Technologies Utilisées
 
 - ReactJS
-- HTML5, CSS3
+- HTML5, SCSS
 
 ## Contact
 
