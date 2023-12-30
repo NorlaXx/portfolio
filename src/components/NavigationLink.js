@@ -50,7 +50,7 @@ export default function NavigationLink() {
                 </li>
                 <li>
                     <a
-                        href="https://www.linkedin.com/in/rochefort-alexis/"
+                        href="https://www.instagram.com/alexis.rochefort/"
                         rel="noreferrer"
                         target="_blank"
                     >
