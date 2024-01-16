@@ -7,6 +7,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        .career-education, .career-professionnal{
+            display: flex;
+            flex-direction: column;
+        }
         h2 {
             color: white;
             position: relative;
@@ -22,6 +26,9 @@
             }
         }
         .career-item {
+            display: flex;
+            flex-direction: column;
+            align-self: center;
             width: 80%;
             margin: 20px 0;
             padding: 20px;
