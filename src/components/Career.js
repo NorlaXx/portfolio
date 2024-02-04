@@ -12,7 +12,7 @@ export default function Career() {
                         <p>ENI, Chartres-de-Bretagne, 2023 - En Cours</p>
                         <ul>
                             <li>Développement web</li>
-                            <li>Développe en couche</li>
+                            <li>Développement en couche</li>
                             <li>Java - Spring Boot</li>
                             <li>PHP - Symfony</li>
                             <li>SQL - UML</li>
