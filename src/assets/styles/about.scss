@@ -49,9 +49,25 @@
             .name,
             .school,
             .company {
+                position: relative;
                 color: $primary-color;
                 font-weight: bold;
-                border-bottom: 1px solid $primary-color;
+                transition: all 0.3s ease;
+                cursor: default;
+                &:after {
+                    position: absolute;
+                    left: 0;
+                    bottom: -3px;
+                    content: "";
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    background: $primary-color;
+                    transition: width 0.3s;
+                }
+                &:hover:after {
+                    width: 100%;
+                }
             }
             @media (max-width: $mobile) {
                 width: 80%;
@@ -62,6 +78,7 @@
         }
         .cv {
             margin-top: 20px;
+            text-align: center;
         }
     }
     @media (max-width: $tablet) {
