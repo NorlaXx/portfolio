@@ -23,14 +23,16 @@ export default function Projects() {
                                     alt={project.name}
                                 ></img>
                                 <p>{project.description}</p>
-                                <a
-                                    href={project.link}
-                                    rel="noreferrer"
-                                    target="_blank"
-                                    className="withBorder"
-                                >
-                                    Voir le projet
-                                </a>
+                                {project.link ? (
+                                    <a
+                                        href={project.link}
+                                        rel="noreferrer"
+                                        target="_blank"
+                                        className="withBorder"
+                                    >
+                                        Voir le projet
+                                    </a>
+                                ) : null}
                             </div>
                         </div>
                     );
