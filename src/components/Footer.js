@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div>
             <div className="portfolio-footer">
-                <p>© 2024 Alexis Rochefort</p>
+                <p>© 2025 Alexis Rochefort</p>
             </div>
         </div>
     );
